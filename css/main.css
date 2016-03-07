@@ -2,19 +2,42 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+}
+
+header {
+    background-color: #d05c2e;
+}
+
 h1 {
-  background-color: #d05c2e;
   color: #fff;
   text-align: center;
   font-size: 2rem;
+
+  margin: 0
 }
 
-.grain-l {
+.grain-left {
   float: left;
+  width: 20%
 }
 
-.grain-r {
+.grain-right {
   float: right;
+  width: 20%
+}
+
+ul {
+  margin: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  text-align: center;
+  background-color: #d05c2e;
 }
 *, *::before, *::after {
   box-sizing: inherit;
