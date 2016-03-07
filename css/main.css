@@ -2,8 +2,18 @@ html {
   box-sizing: border-box;
 }
 
-img {
-  width: 100%;
+h1 {
+  background-color: #d05c2e;
+  color: #fff;
+  text-align: center;
+}
+
+.grain-l {
+  float: left;
+}
+
+.grain-r {
+  float: right;
 }
 *, *::before, *::after {
   box-sizing: inherit;
