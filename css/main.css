@@ -12,10 +12,12 @@ header {
 
 h1 {
   color: #fff;
-  text-align: center;
+  padding : 1em;
   font-size: 2rem;
+  float: left;
 
-  margin: 0
+  margin: 0;
+  text-align: center;
 }
 
 .grain-left {
@@ -24,7 +26,7 @@ h1 {
 }
 
 .grain-right {
-  float: right;
+  float: left;
   width: 20%
 }
 
@@ -32,12 +34,19 @@ ul {
   margin: 0;
   list-style-type: none;
   overflow: hidden;
+  padding: 0;
 }
 
 li {
   float: left;
+  width: 33.333%;
+  padding: 1em;
+
+  font-size: 1.125rem;
   text-align: center;
   background-color: #d05c2e;
+  color: #fff;
+  border: 1px solid #a63f38;
 }
 *, *::before, *::after {
   box-sizing: inherit;
